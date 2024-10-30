@@ -1,0 +1,59 @@
+.cf-admin-settings .card {
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.cf-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cf-flex input {
+    padding: 6px;
+    margin-right: 15px;
+}
+
+.cf-token {
+    position: relative;
+    margin-bottom: 20px;
+    padding: .7em 2em 1.5em;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+}
+
+.cf-token h3 {
+    margin: 5px 0;
+}
+
+.cf-token h3 small {
+    font-size: 12px;
+    font-weight: 400;
+    color: #23282d;
+}
+
+.cf-token:last-child {
+    margin-bottom: 0;
+}
+
+.cf-token-new {
+    border-color: #4caf50;
+    background-color: #f2fbf2;
+    margin-bottom: 0;
+}
+
+.cf-token-error {
+    border-color: #ff0000;
+    background-color: #fddcd9;
+    margin-bottom: 0;
+}
+
+.cf-token span.error {
+    color: #ff0000;
+}
+
+.cf-token input {
+    margin: 10px 0;
+}

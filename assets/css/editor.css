@@ -1,0 +1,30 @@
+.contentfry-display-wp {
+  position: relative;
+}
+
+.contentfry-display-wp::after {
+  content: '';
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contentfry-placeholder .components-base-control {
+  padding: 0 15px;
+}
+
+.contentfry-placeholder svg {
+  margin-right: 10px;
+}
+
+.contentfry-placeholder p {
+  font-size: 12px !important;
+  line-height: 1.2em !important;
+  display: block;
+  width: 100%;
+}
